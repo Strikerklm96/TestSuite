@@ -12,8 +12,8 @@ TEST(StandardLib, AbsoluteValue)
 {
 	int absOfThree = std::abs(-3);
 
-	EXPECT(absOfThree, == , 3);
-	EXPECT(absOfThree, == , 3);
+	EXPECT(absOfThree, == , 2);
+	EXPECT(absOfThree, == , 4);
 	EXPECT(absOfThree, == , 3);
 }
 TEST(StandardLib, AbsoluteValue2)//failing test!
